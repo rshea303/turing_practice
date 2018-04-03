@@ -1,0 +1,68 @@
+#pacman {
+  position: absolute;
+  /*width: 1px;*/
+  /*height: 1px;*/
+  border: 60px solid yellow;
+  border-right-color: transparent;
+  border-radius: 50%;
+}
+
+#eye {
+  position: absolute;
+  top: 37px;
+  left: 50px;
+  border: 8px solid black;
+  border-radius: 50%;
+  z-index: 5;
+}
+
+#top-lip {
+  position: absolute;
+  top: 28px;
+  left: 80px;
+  height: 10px;
+  width: 30px;
+  background: red;
+  z-index: 10;
+  transform: rotate(-45deg);
+}
+
+#bottom-lip {
+  position: absolute;
+  top: 98px;
+  left: 80px;
+  height: 10px;
+  width: 30px;
+  background: red;
+  z-index: 10;
+  transform: rotate(45deg);
+}
+
+#bow {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  z-index: 10;
+  transform: rotate(-20deg);
+}
+
+/*#bow-right {
+  position: relative;
+	width: 0;
+	height: 0;
+	/*border-top: 15px solid transparent;*/
+	border-left: 30px solid red;
+	/*border-bottom: 15px solid transparent;*/
+  /*float: left;*/
+}*/
+
+#bow-left {
+  position: relative;
+  top: 0;
+  left: 10px;
+	width: 0;
+	height: 0;
+	border-top: 15px solid transparent;
+	/*border-right: 30px solid red;
+	border-bottom: 15px solid transparent;*/
+}

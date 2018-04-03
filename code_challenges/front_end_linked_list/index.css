@@ -1,0 +1,19 @@
+button {
+  margin: 10px;
+}
+
+.card {
+  border: 2px solid red;
+  margin: 3px;
+  width: 300px;
+  padding: 15px;
+  text-align: center;
+}
+
+#input-fields {
+  margin:10px;
+}
+
+.read {
+  color: red;
+}
